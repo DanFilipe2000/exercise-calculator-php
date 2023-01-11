@@ -11,7 +11,7 @@
         @csrf
         <input name="num1" type="number">
         <input name="num2" type="number">
-        <select name="operator">
+        <select name="operador">
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="*">*</option>

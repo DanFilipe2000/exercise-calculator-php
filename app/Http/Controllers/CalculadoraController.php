@@ -13,15 +13,15 @@ class CalculadoraController extends Controller
     public function calcular(Request $request) {
         $num1 = $request -> num1;
         $num2 = $request -> num2;
-        $operator = $request -> operator;
+        $operador = $request -> operador;
 
         $total;
 
-        if ($operator == '+') {
+        if ($operador == '+') {
             $total = $num1 + $num2;
-        } elseif ($operator == '-') {
+        } elseif ($operador == '-') {
             $total = $num1 - $num2;
-        } elseif ($operator == '*') {
+        } elseif ($operador == '*') {
             $total = $num1 * $num2;
         } else {
             $total = $num1 / $num2;
