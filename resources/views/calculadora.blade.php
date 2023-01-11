@@ -9,8 +9,8 @@
 <body>
     <form action="/calcular" method="POST">
         @csrf
-        <input name="num1">
-        <input name="num2">
+        <input name="num1" type="number">
+        <input name="num2" type="number">
         <select name="operator">
             <option value="+">+</option>
             <option value="-">-</option>
